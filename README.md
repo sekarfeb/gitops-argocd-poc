@@ -1,6 +1,6 @@
 # GitOps PoC with ArgoCD
 PoC is to have small clusters to emulate the workload lifecycle, staging and prod. Each with two additional namespaces, e.g., "apple" and "orange".
-Point ArgoCD workload to the gitRepo for installation of some arbitrary workloads, then exercise the upgrade process first for staging, then for prod
+ArgoCD workload to the gitRepo for installation of some arbitrary workloads, then exercise the upgrade process first for staging, then for prod
 
 ## Prerequisites
 * Kubernetes Cluster. To create local Kubernetes cluster, use [Kind](https://kind.sigs.k8s.io/docs/user/quick-start/)
