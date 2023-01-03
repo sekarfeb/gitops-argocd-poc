@@ -42,8 +42,8 @@ kubectl create namespace orange
 ```
 2. Create Secret
 ```
-# Update GitHub token in apps/argo-git-sercret.yaml file
-kubectl apply -f apps/argo-git-sercret.yaml
+# Update GitHub token in apps/argo-git-secret.yaml file
+kubectl apply -f apps/argo-git-secret.yaml
 ```
 3. Create app workload for apple namespace
 ```
