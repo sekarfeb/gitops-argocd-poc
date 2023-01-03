@@ -83,4 +83,4 @@ kubectl get pods -n orange
 NAME                                              READY   STATUS    RESTARTS        AGE
 kube-prometheus-stack-operator-5cf7947445-lndn2   1/1     Running   0               40s
 prometheus-kube-prometheus-stack-prometheus-0     2/2     Running   0               40s
-```
+``` 
