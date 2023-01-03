@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: prod/apple
-    repoURL: https://github.com/cisco-sfcn/gitops-poc.git
+    repoURL: https://github.com/sekarfeb/gitops-poc.git
     targetRevision: main
   syncPolicy:
     automated:
